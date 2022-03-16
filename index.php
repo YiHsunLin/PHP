@@ -27,6 +27,10 @@
 <h2 style="color:firebrick">&nbsp&nbsp&nbsp&nbsp第二天: 7:00 吃早餐，12:00 吃午餐，19:00 逛墾丁大街，空檔時間自由活動。</h2>
 <h2 style="color:firebrick">&nbsp&nbsp&nbsp&nbsp第三天: 7:00 吃早餐，12:00 吃午餐，18:00 吃晚餐，平安回家，空檔時間自由活動。</h2>
 <h4 style="color:red">&nbsp&nbsp&nbsp&nbsp&nbsp【※主辦方擁有更改所有行程之權利】</h4>
+<?php
+echo "<center><img src='1.png' /</center>>";
+echo "<img src='2.png' />";
+?>
 
 <h1 style="color:black"><center>3.請填寫以下資料</center></h1>
 
