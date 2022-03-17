@@ -34,14 +34,14 @@ echo "<img src='2.png' />";
 
 <h1 style="color:black"><center>3.請填寫以下資料</center></h1>
 
-<form action="" method=""><center>
-名字:<input type="text" name="UName" placeholder="lyh" required>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp出生年月份:<input type="date" name="date" required></p>
-<p>&nbsp&nbspemail:<input type="email" name="mail" required></p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp手機號碼:<input type="text" name="tel" required></p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp性別:Male<input type="radio" name="male">Female<input type="radio" name="female">Unknown<input type="radio" name="unknown"></p>
-<p>飲食習慣:葷食<input type="checkbox" name="meat">素食<input type="checkbox" name="vegetable"></p>
-<p>衣服顏色:<input type="color" name="color" required></p>
+<form action="info.php" method="post"><center>
+名字:<input type="text" name="uname" placeholder="請輸入中文全名" required>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp出生年月份:<input type="date" name="ubir" required></p>
+<p>&nbsp&nbspemail:<input type="email" name="umail" required></p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp手機號碼:<input type="text" name="utel" required></p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp性別:<input type="radio" name="gender" value="1">男<input type="radio" name="gender" value="2">女<input type="radio" name="gender" value="3">不明</p>
+<p>飲食習慣:<input type="checkbox" name="food[]" value="葷食">葷食<input type="checkbox" name="food[]" value="素食">素食<input type="checkbox" name="food[]" value="穆斯林">穆斯林</p>
+<p>衣服顏色:<input type="color" name="ucolor" required></p>
 <p>衣服尺寸:
 <br/><select name="t-shirt size" multiple>
 <option>XS</option>
